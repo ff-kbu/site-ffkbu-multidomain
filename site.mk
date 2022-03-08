@@ -15,6 +15,7 @@ GLUON_FEATURES := \
         status-page \
         web-advanced \
         web-wizard \
+        web-private-wifi \
         config-mode-geo-location-osm \
         config-mode-domain-select
         
