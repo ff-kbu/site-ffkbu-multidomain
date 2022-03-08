@@ -1,0 +1,10 @@
+# This file allows specifying additional repositories to use
+# when building gluon.
+#
+# In most cases, it is not required so don't add it.
+
+GLUON_SITE_FEEDS="fileskbu"
+PACKAGES_FILESKBU_REPO=https://github.com/johnnybee/gluon-ffkbu-files.git
+PACKAGES_FILESKBU_COMMIT=649b3986aa8268f0c186d7f4e14a9b260c8a93eb
+PACKAGES_FILESKBU_BRANCH=master
+
