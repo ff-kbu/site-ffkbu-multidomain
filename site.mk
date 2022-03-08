@@ -25,6 +25,7 @@ GLUON_SITE_PACKAGES := \
         iwinfo \
         gluon-ffkbu-files 
         
+GLUON_MULTIDOMAIN=1
 GLUON_DEPRECATED=full
 
 # basic support for USB stack
