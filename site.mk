@@ -198,7 +198,7 @@ DEFAULT_GLUON_RELEASE := v2021.1.1-Wireguard
 
 # Allow overriding the release number from the command line
 
-GLUON_RELEASE ?= v2021.1.1-Wireguard
+GLUON_RELEASE ?= v2021.1.2-Wireguard
 
 
 
