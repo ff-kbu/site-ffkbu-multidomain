@@ -182,7 +182,7 @@ DEFAULT_GLUON_RELEASE := v2021.1.1-FastD
 #                       gluon-ff%site_code%-23.42+5-%router_model%.bin
 
 # Allow overriding the release number from the command line
-GLUON_RELEASE ?= v2021.1.1-FastD
+GLUON_RELEASE ?= v2021.1.2-FastD
 
 # Default priority for updates.
 GLUON_PRIORITY ?= 0
