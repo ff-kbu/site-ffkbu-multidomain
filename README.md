@@ -1,7 +1,7 @@
 Freifunk KBU Multihood with Batman15 and 802.11s
 
 
-This is the stable site for Gluon 2021.1.2 with wireguard.
+This is the stable site for Gluon 2022.1 with wireguard.
 
 __Please remember:
 You could use Wireguard only for devices with more than 4Mb of Flash! That means, that f.e. the 841er can only connect to the mesh with fastd!__
