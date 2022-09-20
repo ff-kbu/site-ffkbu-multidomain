@@ -1,3 +1,4 @@
+[![CI](https://github.com/ff-kbu/site-ffkbu-multidomain/actions/workflows/ci.yml/badge.svg?branch=fastd)](https://github.com/ff-kbu/site-ffkbu-multidomain/actions/workflows/ci.yml)
 # ffkbu
 Freifunk KBU Multihood with Batman15 and 802.11s
 
