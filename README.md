@@ -3,7 +3,7 @@
 Freifunk KBU Multihood with Batman15 and 802.11s
 
 
-This is the stable site for Gluon 2021.1.2 with fastd.
+This is the stable site for the latest available Gluon 2021.1.2 with fastd.
 
 
 ## Build Instructions
