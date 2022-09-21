@@ -10,15 +10,17 @@ GLUON_FEATURES := \
   web-advanced \
   web-private-wifi \
   web-wizard \
-  config-mode-domain-select
-
-GLUON_SITE_PACKAGES := \
-  haveged \
-  iptables \
-  iwinfo \
-  gluon-ffkbu-files \
-  gluon-mesh-vpn-wireguard
+  config-mode-domain-select \
+  ffkbu-files \
+  mesh-vpn-wireguard
 #  gluon-ssid-changer
+
+
+GLUON_FEATURES_standard := \
+  wireless-encryption-wpa3
+  
+GLUON_SITE_PACKAGES :=  \
+  iwinfo 
 
 GLUON_MULTIDOMAIN=1
 GLUON_DEPRECATED=full
