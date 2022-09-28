@@ -5,7 +5,7 @@
 
 GLUON_SITE_FEEDS="wgkbu fileskbu ssidchanger"
 PACKAGES_WGKBU_REPO=https://github.com/johnnybee/gluon-mesh-vpn-wireguard.git
-PACKAGES_WGKBU_COMMIT=22f19e5be71243407f3382ffaadaf96cdbd5b02a
+PACKAGES_WGKBU_COMMIT=3d6a2dc643b0f5477b5c3ca28990c26b165b5452
 PACKAGES_WGKBU_BRANCH=master
 
 PACKAGES_FILESKBU_REPO=https://github.com/johnnybee/gluon-ffkbu-files.git
