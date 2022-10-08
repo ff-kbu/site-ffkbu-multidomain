@@ -12,8 +12,8 @@ GLUON_FEATURES := \
   web-wizard \
   config-mode-domain-select \
   ffkbu-files \
-  ssid-changer 
-##  mesh-vpn-wireguard
+  ssid-changer \
+  mesh-vpn-wireguard-kbu
 
 
 GLUON_FEATURES_standard := \
