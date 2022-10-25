@@ -13,8 +13,8 @@ GLUON_FEATURES := \
   config-mode-domain-select \
   ffkbu-files \
   ssid-changer \
-  mesh-vpn-wireguard-kbu
-
+  mesh-vpn-wireguard-kbu \
+  banner
 
 GLUON_FEATURES_standard := \
   wireless-encryption-wpa3
