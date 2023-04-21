@@ -159,8 +159,8 @@ GLUON_tp-link-archer-c7-v4_SITE_PACKAGES := $(USB_PACKAGES_BASIC) $(TOOLS_PACKAG
 #mpc85xx-generic
 GLUON_tp-link-tl-wdr4900-v1_SITE_PACKAGES := $(USB_PACKAGES_BASIC) $(TOOLS_PACKAGES) $(USB_PACKAGES_STORAGE)
 
-DEFAULT_GLUON_RELEASE := v2022.1.x-Wireguard
-GLUON_RELEASE ?= v2022.1.x-Wireguard
+# use actual gluon version tag, can be overwritten on cmd line
+GLUON_RELEASE ?= $(GLUON_VERSION)-mdom.wireguard
 
 # Default priority for updates.
 GLUON_PRIORITY ?= 0
