@@ -20,7 +20,8 @@ GLUON_FEATURES_standard := \
   wireless-encryption-wpa3
   
 GLUON_SITE_PACKAGES :=  \
-  iwinfo 
+  iwinfo \
+  libustream-wolfssl
 
 GLUON_MULTIDOMAIN=1
 GLUON_DEPRECATED=full
