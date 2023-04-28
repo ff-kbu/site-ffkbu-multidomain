@@ -147,10 +147,8 @@ GLUON_WZRHPAG300H_SITE_PACKAGES := $(USB_PACKAGES_BASIC) $(TOOLS_PACKAGES) $(USB
 # mpc85xx-generic
 GLUON_TLWDR4900_SITE_PACKAGES := $(USB_PACKAGES_BASIC) $(TOOLS_PACKAGES) $(USB_PACKAGES_STORAGE)
 
-DEFAULT_GLUON_RELEASE := v2021.1.2-2-FastD
-
-# Allow overriding the release number from the command line
-GLUON_RELEASE ?= v2021.1.2-2-FastD
+# use actual gluon version tag, can be overwritten on cmd line
+GLUON_RELEASE ?= $(GLUON_VERSION)-mdom.fastd
 
 # Default priority for updates.
 GLUON_PRIORITY ?= 0
