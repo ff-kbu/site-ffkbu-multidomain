@@ -21,7 +21,7 @@ GLUON_FEATURES_standard := \
 
 GLUON_SITE_PACKAGES :=  \
   iwinfo \
-  libustream-wolfssl
+  libustream-mbedtls
 
 GLUON_MULTIDOMAIN=1
 GLUON_DEPRECATED=full
