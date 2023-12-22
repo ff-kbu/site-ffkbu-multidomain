@@ -147,6 +147,8 @@ GLUON_WZRHPAG300H_SITE_PACKAGES := $(USB_PACKAGES_BASIC) $(TOOLS_PACKAGES) $(USB
 # mpc85xx-generic
 GLUON_TLWDR4900_SITE_PACKAGES := $(USB_PACKAGES_BASIC) $(TOOLS_PACKAGES) $(USB_PACKAGES_STORAGE)
 
+GLUON_VERSION ?= $(shell git --git-dir=.git describe --always --abbrev=7 --dirty=+)
+
 # use actual gluon version tag, can be overwritten on cmd line
 GLUON_RELEASE ?= $(GLUON_VERSION)-mdom.fastd
 
